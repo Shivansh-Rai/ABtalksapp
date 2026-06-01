@@ -350,9 +350,9 @@ export default async function DashboardPage({
 
         <Card>
           <CardHeader>
-            <CardTitle>Today&apos;s task</CardTitle>
+            <CardTitle>Today&apos;s Task</CardTitle>
             <CardDescription>
-              {enrollment.domain} challenge · IST day {enrollment.currentDay}
+              {enrollment.domain} Challenge · Day {enrollment.currentDay}
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
